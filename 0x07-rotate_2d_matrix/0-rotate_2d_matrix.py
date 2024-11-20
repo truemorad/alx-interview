@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def def rotate_2d_matrix(matrix):
+def rotate_2d_matrix(matrix):
     # get the arrays count
     n = len(matrix)
 
@@ -9,7 +9,7 @@ def def rotate_2d_matrix(matrix):
     # Flip the matrix clockwise using nested loops
     for i in range(n):
         for j in range(n):
-            res[n - j - 1][i] = matrix[i][j]
+            res[i][n - j - 1] = matrix[j][i]
 
     # Update the original matrix
     for i in range(n):
