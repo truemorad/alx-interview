@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def def rotate_2d_matrix(matrix):
     # get the arrays count
     n = len(matrix)
