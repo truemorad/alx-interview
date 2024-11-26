@@ -4,7 +4,7 @@
 def makeChange(coins, total):
     if total <= 0:
         return 0
-    
+
     coins.sort(reverse=True)
     numOfCoins = 0
     for i in coins:
