@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+this os an interview practice
+"""
+
+
 def island_perimeter(grid):
     sides = 0
     for i in grid:
@@ -12,5 +17,5 @@ def island_perimeter(grid):
                 if grid[index + 1][j] == 0:
                     sides += 1
                 if grid[index - 1][j] == 0:
-                    sides += 1    
+                    sides += 1
     return 0 if sides == 0 else sides
