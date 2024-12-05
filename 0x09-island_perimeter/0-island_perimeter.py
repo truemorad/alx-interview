@@ -5,6 +5,13 @@ this os an interview practice
 
 
 def island_perimeter(grid):
+    """Return the sides of an island.
+    The grid represents water by 0 and land by 1.
+    Args:
+        grid (list): A list of list of integers representing an island.
+    Returns:
+        The sides of the island defined in grid.
+    """
     sides = 0
     index = len(grid)
     number = len(grid[0])
